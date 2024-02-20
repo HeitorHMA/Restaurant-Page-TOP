@@ -8,17 +8,21 @@ function tabButtons(){
     const supportButton = document.querySelector("#supportButton")
     const menuButton = document.querySelector("#menuButton")
 
-    homeButton.addEventListener(onclick, ()=>{
+    homeButton.addEventListener('click', ()=>{
         createHomePage()
     }
     )
-    menuButton.addEventListener(onclick, ()=>{
+    menuButton.addEventListener('click', ()=>{
         createMenuPage()
     }
     )
-    supportButton.addEventListener(onclick, ()=>{
+    supportButton.addEventListener('click', ()=>{
         createSupportPage()
     }
     )
+}
+function clearPage(){
+    const content = document.querySelector ("#content")
+    const pageContent = document.querySelector("#page-content")
 }
 export default tabButtons;
