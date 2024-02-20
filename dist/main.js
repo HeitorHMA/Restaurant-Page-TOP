@@ -1,1 +1,1 @@
-(()=>{"use strict"})();
+(()=>{"use strict";document.querySelector("#content"),document.createElement("img")})();
