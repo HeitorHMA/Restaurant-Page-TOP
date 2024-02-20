@@ -9,20 +9,29 @@ function tabButtons(){
     const menuButton = document.querySelector("#menuButton")
 
     homeButton.addEventListener('click', ()=>{
+        clearPage()
         createHomePage()
+
     }
     )
     menuButton.addEventListener('click', ()=>{
+        clearPage()
         createMenuPage()
+
     }
     )
     supportButton.addEventListener('click', ()=>{
+        clearPage()
         createSupportPage()
+  
     }
     )
 }
 function clearPage(){
     const content = document.querySelector ("#content")
-    const pageContent = document.querySelector("#page-content")
+    const pageContent = document.querySelector(".page-content")
+    if (pageContent){
+        content.removeChild(pageContent)
+    }
 }
 export default tabButtons;
