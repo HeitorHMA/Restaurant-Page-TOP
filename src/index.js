@@ -1,1 +1,3 @@
-alert ("hello!")
+import loadPage from './loadPage'
+
+loadPage()
