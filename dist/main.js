@@ -1,1 +1,1 @@
-(()=>{"use strict";document.querySelector("#content"),document.createElement("img")})();
+(()=>{"use strict";!function(){document.querySelector("#content");const e=document.createElement("div"),t=document.createElement("img");t.src="/imgs/restaurant-page.jpg",t.height="400",e.appendChild("image")}()})();
