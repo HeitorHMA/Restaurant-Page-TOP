@@ -1,6 +1,8 @@
 import createHomePage from './homePage'
+import createMenuPage from './menuPage';
 
 function loadPage(){
-    createHomePage()}
+    createHomePage()
+}
 
 export default loadPage;
